@@ -23,7 +23,22 @@
         </div>
         <div>
             <label for="age"> Age:</label>
-            <input type="number" name="age" id="age" required>
+            <input type="number" name="age" id="age" min="1" max="200" step="1"  required>
+        </div>
+        <div>
+            <label for="birthday"> Birthday:</label>
+            <input type="date" name="birthday" id="birthday"  required>
+        </div>
+        <div>
+            Favourite food
+            <div>
+                <label for="banana"> Banana </label>
+                <input type="checkbox" name="banana" id="banana">
+            </div>
+            <div>
+                <label for="apple"> Apple </label>
+                <input type="checkbox" name="apple" id="apple">
+            </div>
         </div>
         <button type="reset"> Reset</button>
         <button type="submit"> Submit</button>
